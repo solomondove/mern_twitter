@@ -1,0 +1,33 @@
+{
+  "name": "mern_twitter",
+  "version": "1.0.0",
+  "description": "twitterific clone",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solomondove/mern_twitter.git"
+  },
+  "author": "solomon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solomondove/mern_twitter/issues"
+  },
+  "homepage": "https://github.com/solomondove/mern_twitter#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
